@@ -3,14 +3,14 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    color: #827E66;
-    /*color: #B0BEC5;*/
+    /*color: #827E66;*/
+    color: #668282;
     display: table;
     font-weight: 300;
     font-family: 'Lato';
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-image: url(http://www.goastreets.com/wp-content/uploads/2015/04/54389950.jpg);
+    background-image: url("../images/atTheBeach1.jpg");
     background-size: cover;
 }
 
@@ -35,5 +35,9 @@ body {
 
 .quote {
     font-size: 24px;
-    color: #575444;
+    color: #4A5E5E;
+}
+
+.form-group {
+    background-color: transparent;
 }
