@@ -27,6 +27,10 @@ body {
     display: inline-block;
 }
 
+.navbar-brand {
+    font-family: 'Pacifico';
+}
+
 .title {
     font-family: 'Pacifico';
     font-size: 96px;
