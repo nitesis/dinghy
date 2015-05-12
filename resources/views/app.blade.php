@@ -7,7 +7,7 @@
 	<title>Dinghy</title>
 
     <!-- Styles -->
-	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+
     <link href="{{ asset('/css/normalize.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/skeleton.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
@@ -15,7 +15,7 @@
 	<!-- Fonts -->
 	<link href='//fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-    
+
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -40,6 +40,8 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a href="{{ url('/') }}">Home</a></li>
+                    <li><a href="{{ url('/') }}">Events</a></li>
+                    <li><a href="{{ url('/') }}">Bring Aways</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">

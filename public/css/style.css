@@ -14,7 +14,11 @@ body {
     background-size: cover;
 }
 
-
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
 
 .container {
     text-align: center;
@@ -30,6 +34,8 @@ body {
 .navbar-brand {
     font-family: 'Pacifico';
 }
+
+
 
 .title {
     font-family: 'Pacifico';
