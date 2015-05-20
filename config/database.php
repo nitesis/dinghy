@@ -55,14 +55,14 @@ return [
 		'mysql' => [
 			'driver'    => 'mysql',
 			'host'      => env('DB_HOST', '127.0.0.1'),
-			'database'  => env('DB_DATABASE', 'homestead'),
-			'username'  => env('DB_USERNAME', 'homestead'),
-			'password'  => env('DB_PASSWORD', 'secret'),
+			'database'  => env('DB_DATABASE', 'dinghy'),
+			'username'  => env('DB_USERNAME', 'root'),
+			'password'  => env('DB_PASSWORD', 'root'),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
-			'strict'    => false,
-            'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+            'unix_socket'   => '/Applications/MAMP/tmp/mysql/mysql.sock',
+			'port'      => '3306',
 		],
 
 		'pgsql' => [
