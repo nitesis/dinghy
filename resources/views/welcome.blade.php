@@ -37,14 +37,33 @@
 
 </head>
 <body class="code-snippets-visible">
-
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="container" >
     <section class="header">
         <h2 class="title">Dinghy</h2>
-        <input type="submit" value="Login">
-        <input type="submit" value="Register">
+        <!-- <input type="submit" value="Login">
+        <input type="submit" value="Register"> -->
+        <div class="login"></div>
+        <!-- <div class="quote">{{ Inspiring::quote() }}</div> -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"></div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <div class="nav navbar-nav navbar-right">
+        @if (Auth::guest())
+        <a href="{{ url('/auth/login') }}"><input type="submit" value="Login"></a>
+        <a href="{{ url('/auth/register') }}"><input type="submit" value="Register"></a>
+        @else
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+        <li><a href="{{ url('/auth/logout') }}">Logout</a></li>
+        </ul>
+        </li>
+        @endif
+        </div>
+        </div>
         <!--  <a class="button button-primary" href="https://github.com/dhg/Skeleton/releases/download/2.0.4/Skeleton-2.0.4.zip" onClick="_gaq.push(['_trackEvent', 'skeleton', 'download'])">Login</a>
           <a class="button button-primary" href="https://github.com/dhg/Skeleton/releases/download/2.0.4/Skeleton-2.0.4.zip" onClick="_gaq.push(['_trackEvent', 'skeleton', 'download'])">Register</a> -->
     </section>

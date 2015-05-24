@@ -1,4 +1,7 @@
-
+.code-snippets-visible {
+    background: url(../images/atTheBeach1.jpg) no-repeat center center fixed;
+    background-size: cover; /* Präfixe */
+}
 .title {
     font-family: 'Pacifico';
     font-size: 96px;
