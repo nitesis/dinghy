@@ -21,3 +21,9 @@ Route::controllers([
 ]);
 
 Route::get('register', 'RegisterController@showRegister');
+
+Route::get('events', 'EventsController@index');
+Route::get('details', 'DetailsController@index');
+Route::get('locations', 'LocationsController@index');
+
+Route::get('dinghySP', 'DinghySPController@index');
