@@ -32,16 +32,7 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-        /*Schema::create ('art', function($newtable)
-        {
-            $newtable -> increments('id');
-            $newtable -> string('artist');
-            $newtable -> string('title',500);
-            $newtable -> text('description');
-            $newtable -> date('created');
-            $newtable -> date('exibiton_date');
-            $newtable -> timestamps();
-        });*/
+     
 		return view('welcome');
 	}
 
