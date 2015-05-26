@@ -3,6 +3,7 @@
 @section('content')
 
     <!-- Locations id before "examples" -->
+    <div class="container" >
     <div class="docs-section examples" id="locations">
         <h6 class="docs-header">Here you find us</h6>
         <div class="row example">
@@ -26,5 +27,5 @@
     </div>
 
     </div>
-
+</div>
 @endsection

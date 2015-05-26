@@ -1,16 +1,16 @@
-@extends('app')
+@extends('DinghyApp')
 
 @section('content')
 
-    <form>
-        <div class="row">
+    <!-- <form>
+        <div class="container">
             <div class="six columns">
                 <label for="exampleEmailInput">Your email</label>
                 <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
             </div>
         </div>
-    </form>
-<!-- <div class="container-fluid">
+    </form> -->
+ <form>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<div class="panel panel-default">
@@ -66,5 +66,5 @@
 			</div>
 		</div>
 	</div>
-</div> -->
+</form> 
 @endsection

@@ -2,6 +2,7 @@
 
 @section('content')
 <!-- Events id before "tables"-->
+<div class="container" >
 <div class="docs-section" id="details">
     <h6 class="docs-header">Enchanting Bride Makeover</h6>
     <p>1th of may 2015</p>
@@ -57,7 +58,7 @@
 
 
 
-
+</div>
 </div>
 
 

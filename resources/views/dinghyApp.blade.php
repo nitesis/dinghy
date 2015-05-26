@@ -20,9 +20,14 @@
 
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link href="{{ asset('/css/github-prettify-theme.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/normalize.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/skeleton.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css"> -->
 
     <!-- Scripts
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->

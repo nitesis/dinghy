@@ -2,6 +2,7 @@
 
 @section('content')
     <!-- Dashboard id before "intro"-->
+    <div class="container" >
     <div class="docs-section" id="events">
         <h6 class="docs-header">Hi Roisin!</h6>
         <p>These are your upcoming events.</p>
@@ -37,4 +38,5 @@
         </code>
         </pre>
     </div>
+</div>
 @endsection
