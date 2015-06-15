@@ -4,10 +4,12 @@
     <!-- Dashboard id before "intro"-->
     <div class="container" >
     <div class="docs-section" id="events">
-
-        <h6 class="docs-header">Hi  $user -> name </h6>
+    
+        <h6 class="docs-header">Hi  {{$name}} </h6>
+        
         <p>These are your upcoming events.</p>
-
+        <a class="button" href="examples/landing" target="_blank">Add Event</a>   
+    
         @foreach ($events as $event)
         <div class="row example">
             <a class="example-screenshot-wrapper" target="_blank" href="examples/landing">

@@ -9,7 +9,13 @@ class EventsController extends Controller
     public function index()
     {
 
+    	$name = \Auth::user()->name;
     	$events = \App\Event::all();
-        return view('events', compact('events'));
+        return view('events', compact('events'))->with('name', $name);
+    }
+
+    public function create()
+    {
+    	return view('eventsCreate');
     }
 }

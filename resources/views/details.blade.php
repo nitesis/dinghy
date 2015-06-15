@@ -69,7 +69,12 @@
             </tbody>
         </table>
     </div>
-
+    
+        <div class="row example">
+            <div class="two-thirds column">
+            <input class="button-primary" type="submit" value="submit input">
+                    </div>
+                    </div>
 
 
 
