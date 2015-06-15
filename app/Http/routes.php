@@ -32,5 +32,5 @@ Route::get('eventsCreate', 'EventsController@create');
 Route::get('details', 'DetailsController@index');
 Route::get('locations', 'LocationsController@index');
 
-Route::get('dinghySP', 'DinghySPController@index');
+Route::post('events', 'EventsController@store');
 

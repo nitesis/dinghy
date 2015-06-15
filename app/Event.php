@@ -20,4 +20,11 @@ class Event extends Model {
 		return $this->hasMany('App\Category');
 	}
 
+    public function images()
+    {
+        return this->image = http://loremflickr.com/320/240/summer;
+    }
+
+
+    /*protected $fillable = ['name', 'place', 'description', 'date'];*/
 }

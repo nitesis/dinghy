@@ -5,21 +5,21 @@
     <div class="container" >
     <div class="docs-section" id="events">
     
-        <h6 class="docs-header">Hi  {{$name}} </h6>
+        <h6 class="docs-header">Hi  {{ $name }} </h6>
         
         <p>These are your upcoming events.</p>
-        <a class="button" href="examples/landing" target="_blank">Add Event</a>   
+        <a class="button" href="{{url('/eventsCreate')}}" >Add Event</a>
     
         @foreach ($events as $event)
         <div class="row example">
             <a class="example-screenshot-wrapper" target="_blank" href="examples/landing">
-                <img class="example-screenshot" src="{{ $event-> image }}">
+                <img class="example-screenshot" src="{{ $event-> images() }}">
             </a>
             <div class="one-half offset-by-one-half column">
-                <h6 class="example-header">{{ $event-> title }}</h6>
-                <p class="example-description">{{ $event-> body }}</p>
-                <a class="button" href="examples/landing" target="_blank">Details</a>
-                <a class="button" href="examples/landing" target="_blank">Edit</a>
+                <h6 class="example-header">{{ $event-> name }}</h6>
+                <p class="example-description">{{ $event-> description }}</p>
+                <a class="button" href="{{url('/details')}}" >Details</a>
+                <a class="button" href="examples/landing" >Edit</a>
             </div> 
         </div> 
         @endforeach
