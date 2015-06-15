@@ -7,6 +7,7 @@ class LocationsController extends Controller
     public function index()
     {
 
-        return view('locations');
+    	$events = \App\Event::all();
+        return view('locations', compact('events'));
     }
 }

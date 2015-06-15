@@ -1,4 +1,4 @@
-@extends('DinghyApp')
+@extends('dinghyApp')
 
 @section('content')
 
@@ -10,6 +10,8 @@
             </div>
         </div>
     </form> -->
+<div class="container">
+	
  <form>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
@@ -67,4 +69,5 @@
 		</div>
 	</div>
 </form> 
+</div>
 @endsection

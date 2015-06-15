@@ -18,6 +18,21 @@
             </tr>
             </thead>
             <tbody>
+
+            @foreach ($items as $item)
+            <tr>
+                <td>Erykah Badu</td>
+                <td><label class="confirmed">
+                        <input type="checkbox">
+                    <span class="label-body">
+                  </span>
+                    </label>
+                </td>
+                <td><input class="u-full-width" type="text" placeholder="{{$item->category}}" id="exampleEmailInput"></td>
+                <td><input class="u-full-width" type="text" placeholder="{{$item->category}}" id="exampleEmailInput"></td>
+            </tr>
+            @endforeach
+
             <tr>
                 <td>Erykah Badu</td>
                 <td><label class="confirmed">

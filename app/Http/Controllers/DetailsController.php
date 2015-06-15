@@ -6,7 +6,7 @@ class DetailsController extends Controller
 {
     public function index()
     {
-
-        return view('details');
+    	$items = \App\Item::all();
+        return view('details', compact('items'));
     }
 }

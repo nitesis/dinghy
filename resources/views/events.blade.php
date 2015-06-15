@@ -4,8 +4,27 @@
     <!-- Dashboard id before "intro"-->
     <div class="container" >
     <div class="docs-section" id="events">
-        <h6 class="docs-header">Hi Roisin!</h6>
+
+        <h6 class="docs-header">Hi  $user -> name </h6>
         <p>These are your upcoming events.</p>
+
+        @foreach ($events as $event)
+        <div class="row example">
+            <a class="example-screenshot-wrapper" target="_blank" href="examples/landing">
+                <img class="example-screenshot" src="{{ $event-> image }}">
+            </a>
+            <div class="one-half offset-by-one-half column">
+                <h6 class="example-header">{{ $event-> title }}</h6>
+                <p class="example-description">{{ $event-> body }}</p>
+                <a class="button" href="examples/landing" target="_blank">Details</a>
+                <a class="button" href="examples/landing" target="_blank">Edit</a>
+            </div> 
+        </div> 
+        @endforeach
+
+
+
+        
         <div class="row example">
             <a class="example-screenshot-wrapper" target="_blank" href="examples/landing">
                 <img class="example-screenshot" src="images/Enchanting.jpg">

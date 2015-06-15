@@ -52,15 +52,11 @@
 <nav class="navbar">
     <div class="container">
         <ul class="navbar-list">
-            <li class="navbar-item"><a class="navbar-link" href="#events">Events</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="#details">Details</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="#locations">Locations</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="{{url('/events')}}">Events</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="{{url('/details')}}">Details</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="{{url('/locations')}}">Locations</a></li>
             <li class="navbar-item">
-                <a class="navbar-link" href="#" data-popover="#moreNavPopover">More</a>
-                <div id="moreNavPopover" class="popover">
-
-                </div>
-            </li>
+                <a class="navbar-link" href="#" data-popover="{{url('/more')}}">More</a></li>
         </ul>
     </div>
 </nav>
