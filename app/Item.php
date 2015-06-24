@@ -5,6 +5,8 @@ use Illuminate\Database\Eloquent\Model;
 class Item extends Model {
 
 	//
+    protected $fillable = ['id' ,'name'];
+
 	public function particip()
 	{
 		return $this->belongsTo('App\Particip');

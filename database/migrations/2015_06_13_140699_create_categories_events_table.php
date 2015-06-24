@@ -7,6 +7,7 @@ class CreateCategoriesEventsTable extends Migration {
 
 	/**
 	 * Run the migrations.
+     * Pivot table for the many to many Relation between Event and Category
 	 *
 	 * @return void
 	 */
@@ -22,11 +23,12 @@ class CreateCategoriesEventsTable extends Migration {
 
 			$table->foreign('event_id')
 			->references('id')
-			->on('events');
+			->on('events')
+            ->onDelete('cascade');
 
 			$table->foreign('category_id')
 			->references('id')
-			->on('categories');
+			->on('categories')->onDelete('cascade');
 		});
 
 		

@@ -6,6 +6,8 @@ class Particip extends Model {
 
 	//
 
+    protected $fillable = ['id', 'name'];
+
 	public function guest()
 	{
 		return $this->belongsTo('App\Guest');

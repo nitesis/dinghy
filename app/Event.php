@@ -4,27 +4,38 @@ use Illuminate\Database\Eloquent\Model;
 
 class Event extends Model {
 
+    protected $fillable = ['id' ,'name', 'place', 'description', 'date'];
 	//
 	public function particip()
 	{
 		return $this->hasMany('App\Particip');
 	}
 
+    /**
+     * An Event has a Host
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
 	public function hasHost()
 	{
 		return $this->belongsTo('App\Guest');
 	}
 
+    /**
+     * Get the categories associated with the given event
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
 	public function categories()
 	{
-		return $this->hasMany('App\Category');
+		return $this->belongsToMany('App\Category', 'categories_events')->withTimestamps();
 	}
 
-    public function images()
+    /*public function images()
     {
-        return this->image = http://loremflickr.com/320/240/summer;
-    }
+
+    }*/
 
 
-    /*protected $fillable = ['name', 'place', 'description', 'date'];*/
+
 }

@@ -59,7 +59,9 @@
 						<div class="form-group">
 							<div class="col-md-6 col-md-offset-4">
 								<button type="submit" class="btn btn-primary">Login</button>
-
+                                <!--{!! Form::open(array('url' => 'auth/login')) !!}
+                                {!! Form::submit('Sign In', array('id' => 'submit', 'class' => 'btn btn-primary') ) !!}
+                                {!! Form::close() !!}-->
 								<a class="btn btn-link" href="{{ url('/password/email') }}">Forgot Your Password?</a>
 							</div>
 						</div>

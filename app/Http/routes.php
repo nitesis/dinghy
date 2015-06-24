@@ -20,17 +20,28 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
+Route::post('auth/login', 'Auth\AuthController@authenticate');
 Route::get('register', 'RegisterController@showRegister');
 
 
 
 
 Route::get('events', 'EventsController@index');
+Route::get('events/{id}', 'EventsController@show');
 
 Route::get('eventsCreate', 'EventsController@create');
+Route::delete('events/{id}', 'EventsController@destroy');
 
+Route::get('detailsAll', 'DetailsController@index');
 Route::get('details', 'DetailsController@index');
+
+/*Route::get('details/{id}', 'DetailsController@create');*/
+Route::post('details', 'DetailsController@store');
+Route::get('details/{id}', 'DetailsController@show');
+
 Route::get('locations', 'LocationsController@index');
+
+/*Route::get('eventsEdit', 'EventsController@edit');*/
 
 Route::post('events', 'EventsController@store');
 

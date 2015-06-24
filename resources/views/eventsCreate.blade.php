@@ -33,12 +33,22 @@
 
         </div>
 
-            <div class="form-group">
+        <div class="form-group">
 
-                {!! Form::label('date', 'Date') !!}
-                {!! Form::input('date', 'date', date('Y-m-d'), ['class' => 'form-control']) !!}
+            {!! Form::label('date', 'Date') !!}
+            {!! Form::input('date', 'date', date('Y-m-d'), ['class' => 'form-control']) !!}
 
-            </div>
+        </div>
+
+        <!-- Categories Form Input -->
+        <div class="form-group">
+
+            {!! Form::label('categories', 'Donation Categories') !!}
+            {!! Form::select('categories[]', $categories, null, ['class' => 'form-control', 'multiple']) !!}
+
+        </div>
+
+
 
         <div class="form-group">
 
@@ -46,6 +56,9 @@
 
 
         </div>
+
+
+
 
     {!! Form::open() !!}
     </div>

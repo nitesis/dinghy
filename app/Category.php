@@ -5,6 +5,11 @@ use Illuminate\Database\Eloquent\Model;
 class Category extends Model {
 
 	//
+
+    protected $fillable = [
+        'name'
+    ];
+
 	public function items()
 	{
 		return $this->hasMany('App\Item');
@@ -12,6 +17,6 @@ class Category extends Model {
 
 	public function events()
 	{
-		return $this->belongsToMany('App\Event');
+		return $this->belongsToMany('App\Event', 'categories_events')->withTimestamps();
 	}
 }
