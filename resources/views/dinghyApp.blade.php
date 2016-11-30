@@ -26,10 +26,6 @@
     <link href="{{ asset('/css/skeleton.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
 
-    <!-- <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="css/style.css"> -->
-
     <!-- Scripts
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script language="JavaScript" src="{{ URL::asset('/js/jquery.min.js') }}"></script>

@@ -79,7 +79,6 @@
                 <p class="event-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                 <a class="button" href="events/landing" target="_blank">Details</a>
                 <a class="button" href="events/landing" target="_blank">Edit</a>
-                <!-- <a class="button" href="https://github.com/dhg/Skeleton/tree/gh-pages/events/landing" target="_blank">Source</a> -->
             </div>
         </div>
 
@@ -91,7 +90,6 @@
                 <h6 class="event-header">BarbieQ</h6>
                 <p class="event-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                 <a class="button" href="events/landing" target="_blank">Details</a>
-                <!-- <a class="button" href="https://github.com/dhg/Skeleton/tree/gh-pages/events/landing" target="_blank">Source</a> -->
             </div>
         </div>
 

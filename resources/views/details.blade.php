@@ -44,7 +44,6 @@
 
                 @foreach($events->categories->lists('name') as $category )
                 <td>    {!! Form::text('' . $category, null, ['class' => 'form-control']) !!} </td>
-                <!--td> <input class="u-full-width" type="text" placeholder="{{$category}}" id="EmailInput"></td> </td-->
                 @endforeach
 
             </tr>
