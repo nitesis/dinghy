@@ -17,7 +17,7 @@
 
 
                 <!--p>Be sure you have confirmed before bringing food and drinks.</p-->
-                <div class="docs-example">
+                <div class="docs-event">
                     <table class="u-full-width">
                         <thead>
                         <tr>
@@ -36,9 +36,9 @@
 
                         <tr>
                             <td>Email: </td>
-                            <td><input class="u-full-width" type="text" placeholder="Name" id="exampleEmailInput"></td>
-                            <td><input class="u-full-width" type="text" placeholder="Mitbringsel" id="exampleEmailInput"></td>
-                            <td><input class="u-full-width" type="text" placeholder="Mitbringsel" id="exampleEmailInput"></td>
+                            <td><input class="u-full-width" type="text" placeholder="Name" id="eventEmailInput"></td>
+                            <td><input class="u-full-width" type="text" placeholder="Mitbringsel" id="eventEmailInput"></td>
+                            <td><input class="u-full-width" type="text" placeholder="Mitbringsel" id="eventEmailInput"></td>
                         </tr>
 
 
@@ -50,8 +50,8 @@
                   </span>
                                 </label>
                             </td>
-                            <td><input class="u-full-width" type="email" placeholder="food" id="exampleEmailInput"></td>
-                            <td><input class="u-full-width" type="email" placeholder="drinks" id="exampleEmailInput"></td>
+                            <td><input class="u-full-width" type="email" placeholder="food" id="eventEmailInput"></td>
+                            <td><input class="u-full-width" type="email" placeholder="drinks" id="eventEmailInput"></td>
                         </tr>
                         <tr>
                             <td>Mike Patton</td>
@@ -61,8 +61,8 @@
                   </span>
                                 </label>
                             </td>
-                            <td><input class="u-full-width" type="email" placeholder="food" id="exampleEmailInput"></td>
-                            <td><input class="u-full-width" type="email" placeholder="drinks" id="exampleEmailInput"></td>
+                            <td><input class="u-full-width" type="email" placeholder="food" id="eventEmailInput"></td>
+                            <td><input class="u-full-width" type="email" placeholder="drinks" id="eventEmailInput"></td>
                         </tr>
                         <tr>
                             <td>Ben l'Oncle Soul</td>
@@ -72,14 +72,14 @@
                   </span>
                                 </label>
                             </td>
-                            <td><input class="u-full-width" type="email" placeholder="food" id="exampleEmailInput"></td>
-                            <td><input class="u-full-width" type="email" placeholder="drinks" id="exampleEmailInput"></td>
+                            <td><input class="u-full-width" type="email" placeholder="food" id="eventEmailInput"></td>
+                            <td><input class="u-full-width" type="email" placeholder="drinks" id="eventEmailInput"></td>
                         </tr>
                         </tbody>
                     </table>
                 </div>
                 @endforeach
-                <div class="row example">
+                <div class="row event">
                     <div class="two-thirds column">
                         <input class="button-primary" type="submit" value="submit input">
                     </div>

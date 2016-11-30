@@ -70,28 +70,28 @@
     <div class="docs-section" id="events">
         <h6 class="docs-header">Hi Roisin!</h6>
         <p>These are your upcoming events.</p>
-        <div class="row example">
-            <a class="example-screenshot-wrapper" target="_blank" href="examples/landing">
-                <img class="example-screenshot" src="images/Enchanting.jpg">
+        <div class="row event">
+            <a class="event-screenshot-wrapper" target="_blank" href="events/landing">
+                <img class="event-screenshot" src="images/Enchanting.jpg">
             </a>
             <div class="one-half offset-by-one-half column">
-                <h6 class="example-header">Enchanting Bride Makeover</h6>
-                <p class="example-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                <a class="button" href="examples/landing" target="_blank">Details</a>
-                <a class="button" href="examples/landing" target="_blank">Edit</a>
-                <!-- <a class="button" href="https://github.com/dhg/Skeleton/tree/gh-pages/examples/landing" target="_blank">Source</a> -->
+                <h6 class="event-header">Enchanting Bride Makeover</h6>
+                <p class="event-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <a class="button" href="events/landing" target="_blank">Details</a>
+                <a class="button" href="events/landing" target="_blank">Edit</a>
+                <!-- <a class="button" href="https://github.com/dhg/Skeleton/tree/gh-pages/events/landing" target="_blank">Source</a> -->
             </div>
         </div>
 
-        <div class="row example">
-            <a class="example-screenshot-wrapper" target="_blank" href="examples/landing">
-                <img class="example-screenshot" src="images/grillparty.jpg">
+        <div class="row event">
+            <a class="event-screenshot-wrapper" target="_blank" href="events/landing">
+                <img class="event-screenshot" src="images/grillparty.jpg">
             </a>
             <div class="one-half offset-by-one-half column">
-                <h6 class="example-header">BarbieQ</h6>
-                <p class="example-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                <a class="button" href="examples/landing" target="_blank">Details</a>
-                <!-- <a class="button" href="https://github.com/dhg/Skeleton/tree/gh-pages/examples/landing" target="_blank">Source</a> -->
+                <h6 class="event-header">BarbieQ</h6>
+                <p class="event-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <a class="button" href="events/landing" target="_blank">Details</a>
+                <!-- <a class="button" href="https://github.com/dhg/Skeleton/tree/gh-pages/events/landing" target="_blank">Source</a> -->
             </div>
         </div>
 
@@ -111,7 +111,7 @@
         <h6 class="docs-header">Enchanting Bride Makeover</h6>
         <p>1th of may 2015</p>
         <p>Be sure you have confirmed before bringing food and drinks.</p>
-        <div class="docs-example">
+        <div class="docs-event">
             <table class="u-full-width">
                 <thead>
                 <tr>
@@ -130,8 +130,8 @@
                   </span>
                         </label>
                     </td>
-                    <td><input class="u-full-width" type="email" placeholder="food" id="exampleEmailInput"></td>
-                    <td><input class="u-full-width" type="email" placeholder="drinks" id="exampleEmailInput"></td>
+                    <td><input class="u-full-width" type="email" placeholder="food" id="eventEmailInput"></td>
+                    <td><input class="u-full-width" type="email" placeholder="drinks" id="eventEmailInput"></td>
                 </tr>
                 <tr>
                     <td>Mike Patton</td>
@@ -141,8 +141,8 @@
                   </span>
                         </label>
                     </td>
-                    <td><input class="u-full-width" type="email" placeholder="food" id="exampleEmailInput"></td>
-                    <td><input class="u-full-width" type="email" placeholder="drinks" id="exampleEmailInput"></td>
+                    <td><input class="u-full-width" type="email" placeholder="food" id="eventEmailInput"></td>
+                    <td><input class="u-full-width" type="email" placeholder="drinks" id="eventEmailInput"></td>
                 </tr>
                 <tr>
                     <td>Ben l'Oncle Soul</td>
@@ -152,8 +152,8 @@
                   </span>
                         </label>
                     </td>
-                    <td><input class="u-full-width" type="email" placeholder="food" id="exampleEmailInput"></td>
-                    <td><input class="u-full-width" type="email" placeholder="drinks" id="exampleEmailInput"></td>
+                    <td><input class="u-full-width" type="email" placeholder="food" id="eventEmailInput"></td>
+                    <td><input class="u-full-width" type="email" placeholder="drinks" id="eventEmailInput"></td>
                 </tr>
                 </tbody>
             </table>
@@ -165,25 +165,25 @@
 
     </div>
 
-    <!-- Locations id before "examples" -->
-    <div class="docs-section examples" id="locations">
+    <!-- Locations id before "events" -->
+    <div class="docs-section events" id="locations">
         <h6 class="docs-header">Here you find us</h6>
-        <div class="row example">
-            <a class="example-screenshot-wrapper" target="_blank" ><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11556.167136927748!2d3.8737109!3d43.6056716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6af0725dd9db1%3A0xad8756742894e802!2sMontpellier%2C+Frankreich!5e0!3m2!1sde!2sch!4v1431386865342" width="400" height="300" frameborder="0" style="border:0"></iframe>
+        <div class="row event">
+            <a class="event-screenshot-wrapper" target="_blank" ><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11556.167136927748!2d3.8737109!3d43.6056716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6af0725dd9db1%3A0xad8756742894e802!2sMontpellier%2C+Frankreich!5e0!3m2!1sde!2sch!4v1431386865342" width="400" height="300" frameborder="0" style="border:0"></iframe>
             </a>
             <div class="one-half offset-by-one-half column">
-                <h6 class="example-header">Enchanting Bride Makeover</h6>
-                <p class="example-description">Hard to find but some kind of lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <h6 class="event-header">Enchanting Bride Makeover</h6>
+                <p class="event-description">Hard to find but some kind of lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
 
             </div>
         </div>
-        <div class="row example">
-            <div class="example-screenshot-wrapper">
-                <div class="example-screenshot coming-soon"></div>
+        <div class="row event">
+            <div class="event-screenshot-wrapper">
+                <div class="event-screenshot coming-soon"></div>
             </div>
             <div class="one-half offset-by-one-half column">
-                <h6 class="example-header">What about the future?</h6>
-                <p class="example-description">More examples will be added to help anyone get started or more familiar with how Dinghy works. The goal is education. If you're more interested in real, live examples of Dinghy events, just wait till the end of semester!</p>
+                <h6 class="event-header">What about the future?</h6>
+                <p class="event-description">More events will be added to help anyone get started or more familiar with how Dinghy works. The goal is education. If you're more interested in real, live events of Dinghy events, just wait till the end of semester!</p>
             </div>
         </div>
     </div>
